@@ -40,7 +40,7 @@ export default class Footer extends React.Component {
                   </div>
                   )}
                   <div className="site-info">
-                    {}
+                    testing
                   </div>
                   <div className="site-info">
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
