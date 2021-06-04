@@ -8,7 +8,7 @@ export default class SectionPosts extends React.Component {
     render() {
         let section = _.get(this.props, 'section', null);
         let display_posts = _.orderBy(getPages(this.props.pages, '/blog'), 'date', 'desc');
-        let recent_posts = display_posts.slice(0, 3);
+        let recent_posts = display_posts.slice(0, 4);
         return (
             <section id={_.get(section, 'section_id', null)} className={'block posts-block bg-' + _.get(section, 'background', null) + ' outer'}>
               <div className="block-header inner-small">
