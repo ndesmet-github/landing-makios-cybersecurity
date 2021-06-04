@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
                     {
                     function newContent() 
                     {
-                    document.write("TEST");
+                    console.log("TEST");
                     }
                     }
 
