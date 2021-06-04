@@ -39,7 +39,8 @@ export default class Footer extends React.Component {
                     </ul>
                   </div>
                   )}
-                  <div className="site-info">TESTING
+                  <div className="site-info">
+                  {}
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;TESTING
                     {_.map(_.get(this.props, 'data.config.footer.links', null), (action, action_idx) => (
