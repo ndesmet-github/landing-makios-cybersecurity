@@ -40,10 +40,10 @@ export default class Footer extends React.Component {
                   </div>
                   )}
                   <div className="site-info">
-                      function newContent() {
+      {                function newContent() {
       document.write("<h1>Out with the old, in with the new!</h1>");
       
-    }
+    }}
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;TESTING
                     {_.map(_.get(this.props, 'data.config.footer.links', null), (action, action_idx) => (
