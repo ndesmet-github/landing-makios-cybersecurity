@@ -46,13 +46,13 @@ export default class Footer extends React.Component {
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
-                    <div className="site-info">
+                  <div className="site-info">
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;
                     {_.map(_.get(this.props, 'data.config.footer.links', null), (action, action_idx) => (
                     <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
-                    </div>
+                  </div>
                 </div>
               </div>
             </footer>
