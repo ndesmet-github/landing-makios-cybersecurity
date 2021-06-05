@@ -40,7 +40,7 @@ export default class Footer extends React.Component {
                   </div>
                   )}
                   <div className="site-info">
-                    Copyright © 2006-{`${new Date().getFullYear()}`}
+                    Copyright ©2006-{`${new Date().getFullYear()}`}
                      
                      &nbsp;
                      &nbsp;
