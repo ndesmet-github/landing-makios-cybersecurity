@@ -41,13 +41,7 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    let test = new Date();
-                    const App = ({}) => (
-                        <div>
-                        <h1>Hello World</h1>
-                        <p>{test.toString()}</p>
-                        </div>
-                    )
+                    {}
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;TESTING
