@@ -42,11 +42,8 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    <script>
-                    let d;
-                    d = const Date() = new type(arguments);
-                    </script>
-
+                    const Date() = new type(arguments);
+                    
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;TESTING
                     {_.map(_.get(this.props, 'data.config.footer.links', null), (action, action_idx) => (
