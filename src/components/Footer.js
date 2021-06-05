@@ -42,7 +42,7 @@ export default class Footer extends React.Component {
                   <div className="site-info">
 
                     const date = Date
-                    <div>
+                    render <div>
                     {Date}
                     <div>
                     
