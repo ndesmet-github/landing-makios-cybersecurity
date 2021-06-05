@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
 
                     const date = Date
                     render <div>
-                    {Date}
+                    Yo
                     <div>
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
