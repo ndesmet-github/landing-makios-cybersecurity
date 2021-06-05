@@ -42,7 +42,7 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
                     {
-                    function newContent() 
+                    function newDate() 
                     {
                     console.log("TEST");
                     }
