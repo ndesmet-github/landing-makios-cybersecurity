@@ -42,7 +42,14 @@ export default class Footer extends React.Component {
                   <div className="site-info">
 
                     Copyright © 2006-<Date/>
-                    
+                    constructor(props) {
+  super(props);
+  this.state = {
+    date: new Date().toLocaleString()
+  };
+}
+
+
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;
                     {_.map(_.get(this.props, 'data.config.footer.links', null), (action, action_idx) => (
