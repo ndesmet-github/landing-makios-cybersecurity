@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
 
                     Copyright © 2006-
                     
-                    function name(params) {
+                    function Date(Year) {
                         
                     }<Date/>
                     
