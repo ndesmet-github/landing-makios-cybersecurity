@@ -41,8 +41,9 @@ export default class Footer extends React.Component {
                   </div>
                   )}
                   <div className="site-info">
-                    
-2021
+
+                    var today = new Date();
+var year = today.getFullYear();                    
                     
 
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
