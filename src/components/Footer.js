@@ -42,7 +42,8 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    <DatePicker selected={} onChange={} />
+                    function Date () {
+                    const []<DatePicker selected={} onChange={} />
 
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;TESTING
