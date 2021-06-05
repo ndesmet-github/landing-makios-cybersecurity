@@ -46,12 +46,12 @@ export default class Footer extends React.Component {
 var date = new Date();
 this.setState({ date });
 
-                    constructor(props) {
+                    {/* constructor(props) {
   super(props);
   this.state = {
     date: new Date().toLocaleString()
   };
-}
+} */}
 
 
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
