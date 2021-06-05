@@ -44,8 +44,9 @@ export default class Footer extends React.Component {
                     {/* Copyright © 2006-{`${new Date().toLocaleString()}`} */}
                     Copyright © 2006-{`${
                         
+var today = new Date();
+var year = today.getFullYear();
 
-                        
                     }`}
 
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
