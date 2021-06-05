@@ -44,6 +44,7 @@ export default class Footer extends React.Component {
 
                     <script>
                     let d;
+                    d = const Date() = new type(arguments);
                     </script>
 
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
