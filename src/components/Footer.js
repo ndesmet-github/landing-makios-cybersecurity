@@ -41,7 +41,7 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    {Date/* {var MyDate = new Date();
+                    <Date>/* {var MyDate = new Date();
                     console.log(MyDate);
                     }
                      */}
