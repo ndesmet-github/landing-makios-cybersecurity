@@ -41,7 +41,7 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    const element = React.createElement('h1', );
+                    const element = React.createElement('h1', {classname: 'greeting'});
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;TESTING
