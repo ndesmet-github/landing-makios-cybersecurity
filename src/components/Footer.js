@@ -43,7 +43,7 @@ export default class Footer extends React.Component {
                   <div className="site-info">
                     
                     {
-                        return 
+                        return ("test")
                     }
                     
 
