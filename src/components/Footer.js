@@ -43,6 +43,7 @@ export default class Footer extends React.Component {
 
                     Copyright © 2006-<Date/>
 
+
                     constructor(props) {
   super(props);
   this.state = {
