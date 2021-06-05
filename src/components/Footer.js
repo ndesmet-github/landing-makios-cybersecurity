@@ -43,8 +43,10 @@ export default class Footer extends React.Component {
 
                     Copyright © 2006-<Date/>
 
-var date = new Date();
-this.setState({ date });
+{`${new Date().toLocaleString()}`}
+
+{/* var date = new Date();
+this.setState({ date }); */}
 
                     {/* constructor(props) {
   super(props);
