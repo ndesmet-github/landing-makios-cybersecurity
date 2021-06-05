@@ -44,9 +44,8 @@ export default class Footer extends React.Component {
                     Copyright © 2006-
                     
                     function Date(Year) {
-                        return <div>test</div>
-                    }
-                    
+
+
                     <Date/>
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
