@@ -40,7 +40,7 @@ export default class Footer extends React.Component {
                   </div>
                   )}
                   <div className="site-info">
-                    Copyright © 2006-{`${new Date().getFullYear()}`} Makios Group LLC.
+                    Copyright © 2006-{`${new Date().getFullYear()}`} Makios Group LLC. | 
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;
