@@ -41,7 +41,13 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    const date = {Date}
+                    const name = 'Josh Perez';
+const element = <h1>Hello, {name}</h1>;
+
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
 
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
