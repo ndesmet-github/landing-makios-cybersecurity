@@ -41,7 +41,7 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    Copyright © 2006-<Date/>{`${new Date().toLocaleString()}`}
+                    Copyright © 2006-{`${new Date().toLocaleString()}`}
 
 {/* var date = new Date();
 this.setState({ date }); */}
