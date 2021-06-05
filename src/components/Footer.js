@@ -41,12 +41,12 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-const element = (
-  <div>
-    <h1>Hello!</h1>
-    <h2>Good to see you here.</h2>
-  </div>
-);
+                    const element = (
+                    <div>
+                        <h1>Hello!</h1>
+                        <h2>Good to see you here.</h2>
+                    </div>
+                    );
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
                     &nbsp;TESTING
