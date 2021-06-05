@@ -42,7 +42,7 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    var today = new Date();
+                    let var today = new Date();
 var year = today.getFullYear();                    
                     
 
