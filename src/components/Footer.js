@@ -42,8 +42,7 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    let component var today = new Date();
-var year = today.getFullYear();                    
+                    { let component            
                     
 
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
