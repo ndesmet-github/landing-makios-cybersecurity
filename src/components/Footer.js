@@ -41,13 +41,12 @@ export default class Footer extends React.Component {
                   )}
                   <div className="site-info">
 
-                    const name = 'Josh Perez';
-const element = <h1>Hello, {name}</h1>;
-
-ReactDOM.render(
-  element,
-  document.getElementById('root')
-);
+function getGreeting(user) {
+  if (user) {
+    return <h1>Hello, {formatName(user)}!</h1>;
+  }
+  return <h1>Hello, Stranger.</h1>;
+}
 
                     
                     {htmlToReact(_.get(this.props, 'data.config.footer.content', null))}
