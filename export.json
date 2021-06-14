@@ -61,7 +61,8 @@
                     "options": [
                         "fira-sans",
                         "nunito-sans",
-                        "system-sans"
+                        "system-sans",
+                        "open-sans"
                     ],
                     "default": "nunito-sans",
                     "required": true
